@@ -13,6 +13,8 @@ const ProductItem = (props) => {
     dispatch(cartActions.addItemToCart({id,title,price}))
   }
 
+  
+
   return (
     <li className={classes.item}>
       <Card>
